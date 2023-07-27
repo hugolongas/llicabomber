@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    font-family: 'VT323', monospace;
+    background: url("../img/bg.png");
+    margin:0px;
+}
+#app{    
+    text-align: center;
+    margin: 0px auto;
+}
+.bomber-accedir{
+    background-color: #1cc700;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 150px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 5px 1px #beefb4;
+    cursor: pointer;
+}
+.bisky{
+    color:#ff8717;
+}
+.cantimplora{
+    color:#ff0000
+}
+.concos{
+    color:#006cff;
+}
+.skando{
+    color:#ffff00;
+}
+.sportinglolla{
+    color:#ffffff;
+}
+.organitzacio{
+    color:#e4e4e4;
+}
+
+.bomber-title{
+    color: #ff0000;
+    font-size: 80px;
+    font-weight: 100;
+    margin: 80px 0px 0px 0px;
+}
+
+.bomber-subtitle{
+    font-size: 75px;
+    margin: 0px;
+    color: #24ff00;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.bombtimer-container{
+    position: relative;
+    margin: 70px auto;
+}
+.bombtimer-container .bombtimer{
+    display: inline-block;
+    width: 250px;
+    height: 290px;
+    padding: 5px;
+    font-size: 65px;
+    text-align: center;
+}
+.bombtimer-container .bombtimer .bombtimer-logo{
+    width: 250px;
+}
+.bombtimer-container .bombtimer .bombtimer-info .colla-name{
+    font-size: 40px;
+}
+
+.login-page .login-form{
+    background-color: #a2c79b;
+    border: 5px solid #1cc700;
+    padding: 26px;
+    width: 310px;
+    margin: 70px auto;
+    text-align: left;
+    box-shadow: 0px 0px 20px 2px #a2c79b;
+}
+
+.bomber-label{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.bomber-input{
+    width: 100%;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+}
+.login-page .bomber-accedir{
+    margin-top:40px;
+    font-size:34px;
+}
+
+.code-validator-page .code-validator-form{
+    background-color: #a2c79b;
+    border: 5px solid #1cc700;
+    padding: 26px;
+    width: 310px;
+    margin: 70px auto;
+    text-align: left;
+    box-shadow: 0px 0px 20px 2px #a2c79b;
+}
+
+.code-validator-page .bomber-accedir{
+    margin: 23px auto;
+}
+
+.code-validator-page .bomber-accedir.validador{   
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px auto 15px;
+    display: block;
+}
+.code-validator-page .code-validator-text {
+    color: #0000ff;
+    text-align: CENTER;
+    font-size: 20px;
+}
+
+.code-validator-page .code-validator-error {
+    color: #ff0000;
+    text-align: CENTER;
+    font-size: 20px;
+}
+.code-validator-page .code-validator-success {
+    color: #000000;
+    text-align: CENTER;
+    font-size: 20px;
+}
+.code-validator-page .user-info{
+    width: 90px;
+    position: absolute;
+    right: 60px;
+    top: 30px;
+}
+.code-validator-page .user-info img{
+    width: 90px;
+}
